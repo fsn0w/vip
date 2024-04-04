@@ -6,3 +6,71 @@
  *
  * https://tailwindcss.com/docs/plugins#adding-utilities
  */
+
+ /**
+  * MENU
+  */
+
+  .hamburger {
+	grid-column: 4/5;
+	width: 60px;
+	height: 60px;
+	transition: all 0.2s ease;
+	@apply relative cursor-pointer ml-auto z-50;
+  }
+
+.hamburger .bar {
+	width: 40px;
+	height: 4px;
+	transition: all 0.2s ease;
+	@apply absolute inline-block;
+  }
+  
+.hamburger .top {
+	top: calc((60px - 22px) / 2 + 0px);
+  }
+  
+.hamburger .middle {
+   top: calc((60px - 22px) / 2 + 10px);
+  }
+  
+.hamburger .bottom {
+	top: calc((60px - 22px) / 2 + 20px);
+  }
+  
+.hamburger .top,.hamburger .middle,.hamburger .bottom {
+	left: calc((60px - 30px) / 2);
+  }
+  
+.hamburger .top-animate {  
+	transform: 
+	  translateY(10px)
+	  rotate(45deg);
+  }
+  
+.hamburger .bottom-animate {
+	 transform: 
+	   translateY(-10px)
+	   rotate(-45deg);
+  }
+
+  .menu-nav {
+	transition: all 0.2s ease;
+	@apply absolute translate-x-full bg-prima-white p-4 w-full h-screen inset-0 flex justify-end;
+  }
+  
+  .expanded {
+	@apply translate-x-0;
+  }
+
+  .menu-list {
+	@apply mt-20 block p-2;
+  }
+
+  .menu-list li {
+	@apply mb-8 text-right;
+  }
+
+  .menu-list a {
+	@apply uppercase text-prima-black font-bold;
+  }

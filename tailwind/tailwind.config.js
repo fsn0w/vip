@@ -12,7 +12,26 @@ module.exports = {
 	],
 	theme: {
 		// Extend the default Tailwind theme.
-		extend: {},
+		extend: {
+			fontFamily: {
+				manrope: ['Manrope', 'sans-serif'],
+				mono: ['DM Mono', 'monospace'],
+				worksans: ['Work Sans', 'sans-serif']
+			},
+			fontSize: {
+				'base': ['.9rem', '1.5em'],
+				'4xl': ['2rem', '1.2em'],
+				'5xl': ['3rem', '1.2em'],
+			},
+			colors: {
+				'prima': {
+					'red': '#D9472D',
+					'gray': '#F5F4F0',
+					'black': '#000000',
+					'white': '#FFFFFF',
+				  },
+			},
+		},
 	},
 	corePlugins: {
 		// Disable Preflight base styles in builds targeting the editor.

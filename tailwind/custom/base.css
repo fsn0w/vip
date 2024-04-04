@@ -11,6 +11,31 @@
  * `theme.json` file and is applied both to the frontend and in the block
  * editor.
 */
+
 body {
-	@apply bg-background text-foreground font-sans;
+	@apply bg-prima-white text-prima-black font-worksans text-base;
+}
+
+main {
+	@apply pt-24
+}
+
+main>div {
+	@apply mb-24
+}
+
+header, footer {
+	@apply px-8
+}
+
+h1 {
+	@apply font-manrope text-5xl mb-4
+}
+
+/**
+* MAIN MENU
+*/
+
+.menu-inline {
+	@apply uppercase
 }
