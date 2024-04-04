@@ -19,7 +19,9 @@ module.exports = {
 				worksans: ['Work Sans', 'sans-serif']
 			},
 			fontSize: {
+				'xs': ['.6rem','1em'],
 				'base': ['.9rem', '1.5em'],
+				'3xl': ['1.3rem', '1.2em'],
 				'4xl': ['2rem', '1.2em'],
 				'5xl': ['3rem', '1.2em'],
 			},

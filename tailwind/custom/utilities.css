@@ -74,3 +74,11 @@
   .menu-list a {
 	@apply uppercase text-prima-black font-bold;
   }
+
+  /**
+  * BENEFITS
+  */
+
+  .benefit_desc ul, .benefit_desc ol {
+    @apply list-disc pl-4 mb-4
+  }

@@ -32,6 +32,10 @@ h1 {
 	@apply font-manrope text-5xl mb-4
 }
 
+h3 {
+	@apply font-manrope text-3xl font-medium mb-4
+}
+
 /**
 * MAIN MENU
 */
