@@ -45,7 +45,7 @@ h3 {
 }
 
 .menu-inline a {
-	@apply mr-8
+	@apply mr-8 hover:text-prima-red transition duration-300
 }
 
 /**
