@@ -6,7 +6,7 @@ $btn = get_sub_field( 'btn' );
 ?>
 
 <div class=" container mx-auto">
-    <div class="grid" style="grid-template-columns: repeat(<?=$cols?>, minmax(0, 1fr));">
+    <div class="grid gap-4" style="grid-template-columns: repeat(<?=$cols?>, minmax(0, 1fr));">
 
     <?php
 
