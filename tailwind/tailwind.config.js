@@ -20,6 +20,7 @@ module.exports = {
 			},
 			fontSize: {
 				'xs': ['.6rem','1em'],
+				'sm': ['.75rem', '1em'],
 				'base': ['.9rem', '1.5em'],
 				'3xl': ['1.3rem', '1.2em'],
 				'4xl': ['2rem', '1.2em'],
@@ -32,6 +33,18 @@ module.exports = {
 					'black': '#000000',
 					'white': '#FFFFFF',
 				  },
+			},
+			gridTemplateColumns: {
+				'footer': 'auto 1fr 1fr',
+			  }
+		},
+		container: {
+			padding: {
+			  DEFAULT: '2rem',
+			  sm: '4rem',
+			  lg: '6rem',
+			  xl: '7rem',
+			  '2xl': '10rem',
 			},
 		},
 	},

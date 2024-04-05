@@ -7,7 +7,7 @@
  * @package vip
  */
 
-$logo_img = '';
+$logo = get_field('logo', 'options');
 
 ?>
 
@@ -19,13 +19,12 @@ $logo_img = '';
 
 <!-- DESKTOP -->
 	<div class="hidden md:flex justify-between items-center">
-		<div>
+		<div class="py-4">
 			<?php 
-				$logo = get_field('logo', 'options');
 				if (!empty($logo)) : 
 			?>
 				<a href="<?php echo home_url(); ?>" class="">
-					<img src="<?php echo esc_url($logo); ?>" alt="<?php bloginfo('name'); ?>" class="h-24" />
+					<img src="<?php echo esc_url($logo); ?>" alt="<?php bloginfo('name'); ?>" class="h-16" />
 				</a>
 			<?php 
 				endif; 
@@ -44,7 +43,7 @@ $logo_img = '';
 	</div>
 
 <!-- MOBILE -->
-	<div class="container px-2 flex justify-between md:hidden">
+	<div class="px-2 flex justify-between md:hidden">
 
 		<?php 
 			$logo = get_field('logo', 'options');

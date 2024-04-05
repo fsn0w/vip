@@ -43,3 +43,55 @@ h3 {
 .menu-inline {
 	@apply uppercase
 }
+
+/**
+* FOOTER 
+*/
+
+footer {
+	@apply font-manrope font-medium
+}
+
+/** MENU */
+
+footer nav {
+	@apply text-prima-white uppercase
+}
+
+footer nav ul {
+	@apply columns-2
+}
+
+footer nav li {
+	@apply mb-2
+}
+
+footer nav a {
+	@apply hover:underline
+}
+
+/** FORM */
+
+footer form .forminator-error {
+	@apply hidden
+}
+
+footer form .forminator-error-message {
+	@apply before:content-['!'] before:bg-prima-white before:px-2 before:text-prima-red before:mr-2
+}
+
+footer form .forminator-field {
+	@apply text-prima-white
+}
+
+footer form .forminator-row {
+	@apply !mb-0
+}
+
+footer form input {
+	@apply bg-transparent border-b my-2 placeholder:text-prima-gray placeholder:opacity-30 text-lg outline-none w-full
+}
+
+footer form button {
+	@apply bg-prima-white text-prima-black rounded-full px-6 py-1 float-right
+}
