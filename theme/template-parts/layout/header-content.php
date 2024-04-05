@@ -15,7 +15,7 @@ $logo = get_field('logo', 'options');
 <header id="masthead" class="w-full z-50 bg-prima-white" x-data="{headerFixed: false}" @scroll.window="headerFixed = (window.pageYOffset > 100) ? true : false" :class="headerFixed ? 'fixed top-0' : 'relative'"> 
 -->
 
-<header id="masthead" class="fixed w-full z-50 bg-prima-white"> 
+<header id="masthead" class="fixed w-full z-50 bg-prima-white items-center"> 
 
 <!-- DESKTOP -->
 	<div class="hidden md:flex justify-between items-center">

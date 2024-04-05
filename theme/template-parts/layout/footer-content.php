@@ -13,7 +13,7 @@ $form_shortcode = get_field('form_shortcode', 'options');
 
 <footer id="colophon" class="bg-prima-red pb-12 pt-14">
 
-	<div class="grid grid-cols-1 md:grid-cols-3 gap-y-8 gap-x-4">
+	<div class="grid grid-cols-1 lg:grid-cols-3 gap-y-8 gap-x-4">
 		<div class="mx-auto">
 			<a href="<?php echo home_url(); ?>" title="<?php bloginfo('name'); ?>" >
 				<svg viewBox="0 0 300 197" fill="none" xmlns="http://www.w3.org/2000/svg" class="h-40">
@@ -58,7 +58,7 @@ $form_shortcode = get_field('form_shortcode', 'options');
 		</div>
 	</div>
 	<!-- copyrights -->
-	<div class="font-mono text-prima-white uppercase text-center md:text-right text-sm mt-8 md:mt-2">
+	<div class="font-mono text-prima-white uppercase text-center lg:text-right text-sm mt-8 lg:mt-2">
 		©Venice Insider Pass. Disclaimer.
 	</div>
 

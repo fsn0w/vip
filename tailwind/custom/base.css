@@ -21,11 +21,11 @@ main {
 }
 
 main>div {
-	@apply mb-24
+	@apply mb-14 md:mb-24
 }
 
 header, footer {
-	@apply px-8
+	@apply px-4 md:px-8
 }
 
 h1 {
