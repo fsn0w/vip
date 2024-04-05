@@ -41,7 +41,11 @@ h3 {
 */
 
 .menu-inline {
-	@apply uppercase
+	@apply uppercase flex
+}
+
+.menu-inline a {
+	@apply mr-8
 }
 
 /**
@@ -93,5 +97,5 @@ footer form input {
 }
 
 footer form button {
-	@apply bg-prima-white text-prima-black rounded-full px-6 py-1 float-right
+	@apply bg-prima-white text-prima-black rounded-full px-6 py-1 float-right hover:animate-bounce
 }
