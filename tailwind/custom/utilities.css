@@ -64,7 +64,7 @@
   }
 
   .menu-list {
-	@apply mt-20 block p-2;
+	@apply mt-20 block p-2 mr-8;
   }
 
   .menu-list li {
@@ -72,7 +72,7 @@
   }
 
   .menu-list a {
-	@apply uppercase text-prima-black font-bold;
+	@apply uppercase text-prima-black text-xl;
   }
 
   /**

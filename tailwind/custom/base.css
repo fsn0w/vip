@@ -17,7 +17,7 @@ body {
 }
 
 main {
-	@apply pt-24
+	@apply pt-16 md:pt-24
 }
 
 main>div {
@@ -97,5 +97,5 @@ footer form input {
 }
 
 footer form button {
-	@apply bg-prima-white text-prima-black rounded-full px-6 py-1 float-right hover:animate-bounce
+	@apply bg-prima-white text-prima-black rounded-full px-6 py-1 float-right hover:bg-opacity-75 transition-all duration-300
 }

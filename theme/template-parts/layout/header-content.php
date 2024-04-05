@@ -43,7 +43,7 @@ $logo = get_field('logo', 'options');
 	</div>
 
 <!-- MOBILE -->
-	<div class="px-2 flex justify-between md:hidden">
+	<div class="flex justify-between md:hidden">
 
 		<?php 
 			$logo = get_field('logo', 'options');
@@ -59,9 +59,9 @@ $logo = get_field('logo', 'options');
 		<div class="lg:hidden" x-data="{ isMenu:false, }">
 			<div >
 				<div class="hamburger" :class="isMenu ? 'rotate-180' : '' " @click="isMenu=!isMenu" @click.outside="isMenu=false">
-					<span class="bar top" :class="isMenu ? 'top-animate bg-prima-dark' : 'bg-prima-dark'"></span>
-					<span class="bar middle" :class="isMenu ? 'scale-x-0 bg-prima-dark' : 'bg-prima-turq'"></span>
-					<span class="bar bottom" :class="isMenu ? 'bottom-animate bg-prima-dark' : 'bg-prima-gray'"></span>
+					<span class="bar top" :class="isMenu ? 'top-animate bg-prima-red' : 'bg-prima-red'"></span>
+					<span class="bar middle" :class="isMenu ? 'scale-x-0 bg-prima-red' : 'bg-prima-red'"></span>
+					<span class="bar bottom" :class="isMenu ? 'bottom-animate bg-prima-black' : 'bg-prima-black'"></span>
 				</div>
 			</div>
 
