@@ -107,3 +107,16 @@
 .textbox-style p {
   @apply mb-4
 }
+
+
+/**
+* ICONS
+*/
+
+.ico-plus {
+  @apply after:content-['+']
+}
+
+.ico-minus {
+  @apply after:content-['-']
+}

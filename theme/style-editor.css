@@ -200,6 +200,7 @@ body{
 }
 
 main{
+  min-height: 80vh;
   padding-top: 4rem;
 }
 
@@ -1164,6 +1165,10 @@ footer form button:hover{
   margin-top: 0.5rem;
 }
 
+.mt-24{
+  margin-top: 6rem;
+}
+
 .mt-6{
   margin-top: 1.5rem;
 }
@@ -1218,6 +1223,10 @@ footer form button:hover{
 
 .h-full{
   height: 100%;
+}
+
+.max-h-0{
+  max-height: 0px;
 }
 
 .max-h-6{
@@ -1395,6 +1404,15 @@ footer form button:hover{
   padding: 1rem;
 }
 
+.p-6{
+  padding: 1.5rem;
+}
+
+.px-3{
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
 .px-4{
   padding-left: 1rem;
   padding-right: 1rem;
@@ -1425,9 +1443,18 @@ footer form button:hover{
   padding-bottom: 6rem;
 }
 
+.py-3{
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
 .py-4{
   padding-top: 1rem;
   padding-bottom: 1rem;
+}
+
+.\!pt-32{
+  padding-top: 8rem !important;
 }
 
 .pb-12{
@@ -1440,6 +1467,10 @@ footer form button:hover{
 
 .pt-14{
   padding-top: 3.5rem;
+}
+
+.text-left{
+  text-align: left;
 }
 
 .text-center{
@@ -1458,6 +1489,16 @@ footer form button:hover{
   font-family: DM Mono, monospace;
 }
 
+.text-2xl{
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.text-lg{
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
 .text-sm{
   font-size: .75rem;
   line-height: 1em;
@@ -1468,12 +1509,26 @@ footer form button:hover{
   line-height: 1em;
 }
 
+.text-xl{
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.font-bold{
+  font-weight: 700;
+}
+
 .font-medium{
   font-weight: 500;
 }
 
 .uppercase{
   text-transform: uppercase;
+}
+
+.text-prima-red{
+  --tw-text-opacity: 1;
+  color: rgb(217 71 45 / var(--tw-text-opacity));
 }
 
 .text-prima-white{
@@ -1487,6 +1542,14 @@ footer form button:hover{
 
 .opacity-100{
   opacity: 1;
+}
+
+.transition{
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
 }
 
 .transition-all{
@@ -1513,6 +1576,10 @@ footer form button:hover{
 
 .duration-500{
   transition-duration: 500ms;
+}
+
+.duration-700{
+  transition-duration: 700ms;
 }
 
 .content-none{
@@ -1687,6 +1754,38 @@ footer form button:hover{
 
 .textbox-style p{
   margin-bottom: 1rem;
+}
+
+/**
+* ICONS
+*/
+
+.ico-plus::after{
+  --tw-content: '+';
+  content: var(--tw-content);
+}
+
+.ico-minus::after{
+  --tw-content: '-';
+  content: var(--tw-content);
+}
+
+.hover\:bg-prima-red:hover{
+  --tw-bg-opacity: 1;
+  background-color: rgb(217 71 45 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-opacity-75:hover{
+  --tw-bg-opacity: 0.75;
+}
+
+.hover\:bg-opacity-90:hover{
+  --tw-bg-opacity: 0.9;
+}
+
+.hover\:text-prima-white:hover{
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .group:hover .group-hover\:-translate-y-full{
