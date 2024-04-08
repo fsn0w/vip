@@ -15,7 +15,7 @@ if ( ! defined( 'VIP_VERSION' ) ) {
 	 * to create your production build, the value below will be replaced in the
 	 * generated zip file with a timestamp, converted to base 36.
 	 */
-	define( 'VIP_VERSION', '0.1.127' );
+	define( 'VIP_VERSION', '0.1.128' );
 }
 
 if ( ! defined( 'VIP_TYPOGRAPHY_CLASSES' ) ) {
