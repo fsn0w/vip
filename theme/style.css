@@ -607,6 +607,14 @@ video {
  * editor.
 */
 
+[x-cloak] {
+  display: none !important;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
 /**
  * NO SCROLLBAR
 */
@@ -1589,6 +1597,10 @@ footer form button:hover{
   margin-bottom: 0.5rem;
 }
 
+.mb-6{
+  margin-bottom: 1.5rem;
+}
+
 .mr-1{
   margin-right: 0.25rem;
 }
@@ -1603,10 +1615,6 @@ footer form button:hover{
 
 .mt-8{
   margin-top: 2rem;
-}
-
-.mb-6{
-  margin-bottom: 1.5rem;
 }
 
 .\!block{
@@ -1667,10 +1675,6 @@ footer form button:hover{
 
 .min-h-\[50vh\]{
   min-height: 50vh;
-}
-
-.min-h-screen{
-  min-height: 100vh;
 }
 
 .w-1\/2{

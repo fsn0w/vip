@@ -12,6 +12,12 @@
  * editor.
 */
 
+[x-cloak] { display: none !important; }
+
+html {
+	@apply scroll-smooth
+}
+
 /**
  * NO SCROLLBAR
 */
