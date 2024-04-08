@@ -82,3 +82,53 @@
   .benefit_desc ul, .benefit_desc ol {
     @apply list-disc pl-4 mb-4
   }
+
+
+
+
+  /**
+  * ANIMATION
+  */
+
+  .hide-up-animation {
+    animation: hide-up linear;
+    animation-timeline: scroll(root block);
+    animation-range: 0 200vh;
+  }
+
+  .show-up-animation {
+    animation: show-up linear;
+    animation-timeline: scroll(root block);
+    animation-range: 0 200vh;
+  }
+
+  /**
+  * KEYFRAMEs
+  */
+
+  @keyframes hide-up {
+    10% {
+      opacity: 1;
+    }
+    30% {
+      opacity: 0;
+      transform: translateY(-200px);
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+
+  @keyframes show-up {
+    0% {
+      opacity: 0;
+      transform: translateY(10vh);
+    }
+    30% {
+      opacity: 1;
+      transform: translateY(0px);
+    }
+    100% {
+      opacity: 1;
+    }
+  }

@@ -12,12 +12,29 @@
  * editor.
 */
 
+/**
+ * NO SCROLLBAR
+*/
+
+html::-webkit-scrollbar {
+	display: none;
+  }
+  
+html {
+	-ms-overflow-style: none;  /* IE and Edge */
+	scrollbar-width: none;  /* Firefox */
+  }
+
+/**
+ * MAIN TAGs
+ */
+
 body {
 	@apply bg-prima-white text-prima-black font-worksans text-base;
 }
 
 main {
-	@apply pt-16 md:pt-24
+	@apply pt-16 md:pt-0
 }
 
 main>div {
