@@ -32,7 +32,7 @@ $btn = get_sub_field( 'btn' );
                 <div class="flex flex-col justify-between group overflow-hidden relative h-full" @click="desc=true" :class="{'cursor-pointer' : !desc}">
                     <div class="flex items-center border-b group-hover:border-prima-black overflow-hidden aspect-square transition-transform duration-500 relative" :class="{'scale-0':desc}">
                         <img src="<?=$photo['url']?>" alt="<?=$title?>" class="hidden md:inline-block group-hover:-translate-y-full transition-transform duration-500 relative z-10">
-                        <img src="<?=$logo['url']?>" alt="<?=$title?>" class="absolute inset-0">
+                        <img src="<?=$logo['url']?>" alt="<?=$title?>" class="absolute inset-auto">
                     </div>
                     <div class="p-4 flex flex-col justify-between">
                         <div class=" transition-all duration-500" :class="{'absolute top-0 left-0 h-full p-4 pt-12':desc}">
