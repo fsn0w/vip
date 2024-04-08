@@ -27,14 +27,14 @@ $title = get_sub_field( 'title' );
 
                         <li class="relative mb-2" x-data="{isOpen:<?=($n==1 ? 'true' : 'false')?>}">
 
-                        <button type="button" @click="isOpen = !isOpen" class="w-full px-3 py-3 text-left text-2xl transition duration-300 text-prima-red hover:bg-opacity-90" :class="{'': isOpen, 'text-prima-white bg-prima-red':!isOpen}">
+                        <button type="button" @click="isOpen = !isOpen" class="w-full px-3 py-3 text-left text-2xl transition duration-300 text-prima-red hover:bg-prima-gray" >
                             <div class="flex items-center justify-between">
                                 <strong><?=$q?></strong>
                                 <span class="font-bold text-2xl" :class="{ 'ico-plus': !isOpen, 'ico-minus': isOpen }"></span>
                             </div>
                         </button>
 
-                        <div class="bg-prima-gray relative overflow-hidden transition-all max-h-0 duration-700 text-lg" style="" x-ref="container<?=$n?>" x-bind:style="isOpen ? 'max-height: ' + $refs.container1.scrollHeight + 'px' : ''">
+                        <div class="bg-prima-gray relative overflow-hidden transition-all max-h-0 duration-700 text-lg" style="" x-ref="container<?=$n?>" x-bind:style="isOpen ? 'max-height: ' + $refs.container<?=$n?>.scrollHeight + 'px' : ''">
                             <div class="p-6">
                                 <?=$a?>
                             </div>
