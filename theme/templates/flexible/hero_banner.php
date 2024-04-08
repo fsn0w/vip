@@ -20,7 +20,7 @@ $subtitle2   = get_sub_field( 'subtitle_2' );
             <h1><?=$title?></h1>
             <span><?=$subtitle?></span>
         </div>
-        <div class="absolute max-w-96 opacity-0 show-up-animation :class="{'!opacity-1':scroll}"">
+        <div class="absolute max-w-96 opacity-0 show-up-animation" :class="{'!opacity-1':scroll}">
             <span><?=$subtitle2?></span>
         </div>
     </div>
