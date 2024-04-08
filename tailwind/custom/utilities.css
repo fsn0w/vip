@@ -84,8 +84,6 @@
   }
 
 
-
-
   /**
   * ANIMATION
   */
@@ -102,8 +100,10 @@
     animation-range: 0 200vh;
   }
 
-  /**
-  * KEYFRAMEs
-  */
+/**
+* TEXT-BOX STYLE
+*/
 
-
+.textbox-style p {
+  @apply mb-4
+}

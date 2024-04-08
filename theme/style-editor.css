@@ -297,6 +297,29 @@ footer nav a:hover{
   text-decoration-line: underline;
 }
 
+/** BTNs */
+
+.btn-main{
+  float: right;
+  border-radius: 9999px;
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  font-family: Manrope, sans-serif;
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 300ms;
+}
+
+.btn-main:hover{
+  --tw-bg-opacity: 0.75;
+}
+
 /** FORM */
 
 footer form .forminator-error{
@@ -353,10 +376,11 @@ footer form button{
   border-radius: 9999px;
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
-  padding-top: 0.25rem;
-  padding-bottom: 0.25rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  font-family: Manrope, sans-serif;
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
   transition-property: all;
@@ -1075,12 +1099,12 @@ footer form button:hover{
   position: fixed;
 }
 
-.absolute{
-  position: absolute;
-}
-
 .\!absolute{
   position: absolute !important;
+}
+
+.absolute{
+  position: absolute;
 }
 
 .relative{
@@ -1128,8 +1152,16 @@ footer form button:hover{
   margin-top: 0.5rem;
 }
 
+.mt-6{
+  margin-top: 1.5rem;
+}
+
 .mt-8{
   margin-top: 2rem;
+}
+
+.mb-6{
+  margin-bottom: 1.5rem;
 }
 
 .\!block{
@@ -1190,6 +1222,10 @@ footer form button:hover{
 
 .min-h-\[50vh\]{
   min-height: 50vh;
+}
+
+.min-h-screen{
+  min-height: 100vh;
 }
 
 .w-1\/2{
@@ -1365,6 +1401,11 @@ footer form button:hover{
   padding-right: 1.5rem;
 }
 
+.py-0{
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
 .py-1{
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
@@ -1395,10 +1436,6 @@ footer form button:hover{
 
 .pt-14{
   padding-top: 3.5rem;
-}
-
-.pb-4{
-  padding-bottom: 1rem;
 }
 
 .text-center{
@@ -1641,8 +1678,12 @@ footer form button:hover{
 }
 
 /**
-  * KEYFRAMEs
-  */
+* TEXT-BOX STYLE
+*/
+
+.textbox-style p{
+  margin-bottom: 1rem;
+}
 
 .group:hover .group-hover\:-translate-y-full{
   --tw-translate-y: -100%;
@@ -1715,6 +1756,10 @@ footer form button:hover{
 
   .lg\:hidden{
     display: none;
+  }
+
+  .lg\:min-h-screen{
+    min-height: 100vh;
   }
 
   .lg\:grid-cols-3{

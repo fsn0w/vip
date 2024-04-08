@@ -91,6 +91,12 @@ footer nav a {
 	@apply hover:underline
 }
 
+/** BTNs */
+
+.btn-main {
+	@apply bg-prima-white text-prima-black rounded-full px-8 py-2 float-right hover:bg-opacity-75 transition-all duration-300 font-manrope
+}
+
 /** FORM */
 
 footer form .forminator-error {
@@ -114,5 +120,5 @@ footer form input {
 }
 
 footer form button {
-	@apply bg-prima-white text-prima-black rounded-full px-6 py-1 float-right hover:bg-opacity-75 transition-all duration-300
+	@apply btn-main
 }
