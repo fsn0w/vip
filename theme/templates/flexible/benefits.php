@@ -45,12 +45,12 @@ $btn = get_sub_field( 'btn' );
                             <?php if ($discounts) : ?>
                                 <ul class="discounts">
                                     <?php foreach ($discounts as $discount) : ?>
-                                        <li class="inline-flex flex-col justify-center items-center">
+                                        <li class="inline-flex flex-col justify-center items-center mr-1">
                                             <?php 
                                                 $icon = get_term_meta($discount->term_id, 'icon', true); 
                                                 if ($icon) :
                                             ?>
-                                            <div class="mb-2"><img src="<?=wp_get_attachment_url($icon)?>" alt="<?php echo esc_html($discount->name); ?>" class="max-h-5 w-auto"></div>
+                                            <div class="mb-2"><img src="<?=wp_get_attachment_url($icon)?>" alt="<?php echo esc_html($discount->name); ?>" class="max-h-6 w-auto"></div>
                                             <?php endif; ?>
                                             <span class="uppercase text-xs max-w-14 text-center"><?php echo esc_html($discount->name); ?></span>
                                         </li>

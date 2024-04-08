@@ -1124,6 +1124,14 @@ footer form button:hover{
   margin-top: 0.5rem;
 }
 
+.mr-2{
+  margin-right: 0.5rem;
+}
+
+.mr-1{
+  margin-right: 0.25rem;
+}
+
 .\!block{
   display: block !important;
 }
@@ -1178,6 +1186,10 @@ footer form button:hover{
 
 .max-h-5{
   max-height: 1.25rem;
+}
+
+.max-h-6{
+  max-height: 1.5rem;
 }
 
 .min-h-48{
