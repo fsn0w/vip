@@ -9,7 +9,7 @@ $subtitle2   = get_sub_field( 'subtitle_2' );
 
 <div class="relative md:h-[200vh]">
 
-    <div class="sticky top-0 flex flex-wrap items-center text-prima-white font-mono font-medium uppercase bg-prima-red" x-data="{ scroll: false }" @scroll.window="scroll = (window.pageYOffset > 170) ? true : false">
+    <div class="fixed top-0 flex flex-wrap items-center text-prima-white font-mono font-medium uppercase bg-prima-red" x-data="{ scroll: false }" @scroll.window="scroll = (window.pageYOffset > 170) ? true : false">
 
     <div class="w-full xl:w-1/2 bg-prima-white overflow-hidden">
         <img src="<?=$image['url']?>" alt="" class="">

@@ -11,7 +11,7 @@ $form_shortcode = get_field('form_shortcode', 'options');
 
 ?>
 
-<footer id="colophon" class="bg-prima-red pb-12 pt-14">
+<footer id="colophon" class="bg-prima-red pb-12 pt-14 relative z-10">
 
 	<div class="grid grid-cols-1 lg:grid-cols-3 gap-y-8 gap-x-4">
 		<div class="mx-auto">
