@@ -15,7 +15,7 @@ $logo = get_field('logo', 'options');
 <header id="masthead" class="w-full z-50 bg-prima-white" x-data="{headerFixed: false}" @scroll.window="headerFixed = (window.pageYOffset > 100) ? true : false" :class="headerFixed ? 'fixed top-0' : 'relative'"> 
 -->
 
-<header id="masthead" class="fixed w-full z-50 bg-prima-white items-center"> 
+<header id="masthead" class="fixed w-full z-50 bg-prima-white items-center transition-all duration-300" x-data="{headerScroll: false}" @scroll.window="headerScroll = (window.pageYOffset > 100) ? true : false" :class="headerScroll ? 'bg-opacity-80 backdrop-filter backdrop-blur-lg' : ''"> 
 
 <!-- DESKTOP -->
 	<div class="hidden md:flex justify-between items-center">

@@ -29,8 +29,8 @@ $title = get_sub_field( 'title' );
 
                         <button type="button" @click="isOpen = !isOpen" class="w-full px-3 py-3 text-left text-2xl transition duration-300 text-prima-red hover:bg-prima-gray" >
                             <div class="flex items-center justify-between">
-                                <strong><?=$q?></strong>
-                                <span class="font-bold text-2xl" :class="{ 'ico-plus': !isOpen, 'ico-minus': isOpen }"></span>
+                                <span><?=$q?></span>
+                                <i class="text-2xl not-italic" :class="{ 'ico-plus': !isOpen, 'ico-minus': isOpen }"></i>
                             </div>
                         </button>
 
