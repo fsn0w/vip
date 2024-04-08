@@ -36,7 +36,24 @@ module.exports = {
 			},
 			gridTemplateColumns: {
 				'footer': 'auto 1fr 1fr',
-			  }
+			},
+			keyframes: {
+				hideUp: {
+				  '0%': { opacity: 1 },
+				  '10%': { opacity: 1 },
+				  '30%': { opacity:0, transform: 'translateY(-200px)'},
+				  '100%': { opacity:0 },
+				},
+				showUp: {
+					'0%': { opacity: 0, transform: 'translateY(10vh)' },
+					'30%': { opacity: 1, transform: 'translateY(0px)' },
+					'100%': { opacity:1},
+				  }
+			},
+			animation: {
+				'hide-up': 'hideUp linear',
+				'show-up': 'showUp linear',
+			}
 		},
 		container: {
 			padding: {
