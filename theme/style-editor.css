@@ -1083,6 +1083,10 @@ footer form button:hover{
   inset: 0px;
 }
 
+.inset-auto{
+  inset: auto;
+}
+
 .left-0{
   left: 0px;
 }
