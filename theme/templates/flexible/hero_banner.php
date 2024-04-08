@@ -16,11 +16,11 @@ $subtitle2   = get_sub_field( 'subtitle_2' );
     </div>
 
     <div class="flex flex-col self-stretch py-20 min-h-48 items-center justify-center text-center w-full px-4 xl:w-1/2 overflow-hidden">
-        <div class="max-w-96 hide-up-animation">
+        <div class="max-w-96 hide-up-animation" :class="{'opacity-0':scroll}">
             <h1><?=$title?></h1>
             <span><?=$subtitle?></span>
         </div>
-        <div class="absolute max-w-96 show-up-animation">
+        <div class="absolute max-w-96 opacity-0 show-up-animation :class="{'opacity-1':scroll}"">
             <span><?=$subtitle2?></span>
         </div>
     </div>
