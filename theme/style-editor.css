@@ -1120,6 +1120,10 @@ footer form button:hover{
   margin-top: 2rem;
 }
 
+.mt-2{
+  margin-top: 0.5rem;
+}
+
 .\!block{
   display: block !important;
 }
@@ -1222,6 +1226,10 @@ footer form button:hover{
 
 .max-w-sm{
   max-width: 24rem;
+}
+
+.max-w-14{
+  max-width: 3.5rem;
 }
 
 .rotate-180{

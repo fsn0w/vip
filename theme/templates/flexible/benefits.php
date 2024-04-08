@@ -52,12 +52,12 @@ $btn = get_sub_field( 'btn' );
                                             ?>
                                             <div class="mb-2"><img src="<?=wp_get_attachment_url($icon)?>" alt="<?php echo esc_html($discount->name); ?>" class="max-h-5 w-auto"></div>
                                             <?php endif; ?>
-                                            <span class="uppercase text-xs"><?php echo esc_html($discount->name); ?></span>
+                                            <span class="uppercase text-xs max-w-14 text-center"><?php echo esc_html($discount->name); ?></span>
                                         </li>
                                     <?php endforeach; ?>
                                 </ul>
                             <?php endif; ?>
-                            <div class="text-right" :class="{'hidden':desc}">
+                            <div class="text-right mt-2" :class="{'hidden':desc}">
                                 <button type="button" class="bg-prima-red text-prima-white rounded-full px-6 py-1 group-hover:animate-bounce transition-all duration-300"><?=$btn?></button>
                             </div>
                         </div>
