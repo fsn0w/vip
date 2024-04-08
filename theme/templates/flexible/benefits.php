@@ -4,7 +4,7 @@ $btn = get_sub_field( 'btn' );
 
 ?>
 
-<div class="relative z-10 bg-prima-white">
+<div class="relative z-10 bg-prima-white" id="benefits">
 
     <div class="container mx-auto">
         <div class="grid gap-8 grid-cols-1 md:grid-cols-2 xl:grid-cols-3 justify-items-center">
