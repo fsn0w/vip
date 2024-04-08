@@ -1524,6 +1524,10 @@ footer form button:hover{
   position: absolute;
 }
 
+.\!absolute{
+  position: absolute !important;
+}
+
 .relative{
   position: relative;
 }
@@ -1836,6 +1840,10 @@ footer form button:hover{
 
 .pt-14{
   padding-top: 3.5rem;
+}
+
+.pb-4{
+  padding-bottom: 1rem;
 }
 
 .text-center{
