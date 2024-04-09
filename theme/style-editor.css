@@ -1412,6 +1412,10 @@ footer form button:hover{
   fill: #F3F3F0;
 }
 
+.fill-prima-white{
+  fill: #FFFFFF;
+}
+
 .p-4{
   padding: 1rem;
 }
