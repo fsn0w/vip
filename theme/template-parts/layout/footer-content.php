@@ -63,3 +63,16 @@ $form_shortcode = get_field('form_shortcode', 'options');
 	</div>
 
 </footer><!-- #colophon -->
+
+<!-- Modal -->
+<div x-show="showModal" @click.away="showModal = false" x-ref="overlay">
+	test
+</div>
+<script>
+    document.querySelectorAll('.modal').forEach(function(item) {
+        item.addEventListener('click', function() {
+            var modal = document.querySelector('[x-ref="modal"]');
+            modal.__x.$data.showModal = true;
+        });
+    });
+</script>

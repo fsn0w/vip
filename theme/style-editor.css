@@ -1513,15 +1513,6 @@ footer form button:hover{
   line-height: 1em;
 }
 
-.text-xl{
-  font-size: 1.25rem;
-  line-height: 1.75rem;
-}
-
-.font-bold{
-  font-weight: 700;
-}
-
 .font-medium{
   font-weight: 500;
 }
@@ -1789,27 +1780,9 @@ footer form button:hover{
   content: var(--tw-content);
 }
 
-.hover\:bg-prima-red:hover{
-  --tw-bg-opacity: 1;
-  background-color: rgb(217 71 45 / var(--tw-bg-opacity));
-}
-
 .hover\:bg-prima-gray:hover{
   --tw-bg-opacity: 1;
   background-color: rgb(245 244 240 / var(--tw-bg-opacity));
-}
-
-.hover\:bg-opacity-75:hover{
-  --tw-bg-opacity: 0.75;
-}
-
-.hover\:bg-opacity-90:hover{
-  --tw-bg-opacity: 0.9;
-}
-
-.hover\:text-prima-white:hover{
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .group:hover .group-hover\:-translate-y-full{
